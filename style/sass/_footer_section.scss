@@ -1,0 +1,173 @@
+.footer_section{
+    margin-top: 100px;
+    padding: 100px 187px;
+    // background-position-x:50% ;
+    // background-position-y:10% ;
+    // border: 3px solid rgb(190, 38, 38);
+    //  width: 1920px;
+    //  height: 477px;
+    display: flex;
+    justify-content: space-between;
+    align-content: flex-start;
+    .slot_1{
+        // border: 2px solid black;
+        width: 270px;
+        height: 218px;
+        .slot_1_list{
+            list-style: none;
+            .first_list{
+                padding-bottom: 34px;
+                width: 162px;
+                height: 45px;
+
+                img{
+                    width: 162px;
+                    height: 45px;
+                }
+            }
+
+            .second_list{
+                align-content: flex-start;
+                width: 270px;
+                padding-bottom: 33px;
+                font-size: 16px;
+                color: #888888;
+                font-weight: 400;
+                line-height: 24px;
+                h4{
+                    padding-top: 22px;
+                    font-size: 16px;
+                    color: #888888;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+
+            .third_list{
+                width: 189px;
+                gap: 23px;
+            }
+            
+        }
+    }
+
+    .slot_2{
+        // border: 2px solid black;
+        height: 165px;
+        padding: 0 84px 0 14px;
+
+        .slot_2_list{
+            list-style: none;
+
+        }
+
+        .first_list{
+            padding-bottom: 36px;
+            font-weight: 700;
+            color: #000000;
+            font-size: 22px;
+        }
+
+        .second_list{
+            line-height: 32px;
+            
+            h4{
+                font-size: 16px;
+                color: #888888;
+                font-weight: 400;
+                line-height: 24px;
+                width: 216px;
+            }
+        }
+    }
+
+    .slot_3{
+        // border: 1px solid black;
+        width: max-content;
+        
+        .slot_3_list{
+            list-style: none;
+            .first_slot{
+                font-weight: 700;
+                font-size: 22px;
+                color: #000000;
+                padding-bottom: 36px;
+            }
+            .same_slot{
+                line-height: 32px;
+                font-weight: 400;
+                font-size: 16px;
+                color: #888888;
+                width: 123px;
+            }
+
+            li{
+                font-size: 16px;
+                color: #888888;
+                font-weight: 400;
+                line-height: 24px;
+            }
+        }
+    }
+
+    .slot_4{
+        width: 271px;
+        height: 235px;
+        // border: 1px solid black;
+        margin-left: 196px;
+        .slot_1_list{
+            list-style: none;
+            position: relative;
+
+            .first_list{
+                padding-bottom: 34px;
+                font-weight: 700;
+                color: #000000;
+                font-size: 22px;
+                
+            }
+
+            .second_list{
+                width: 270px;
+                padding-bottom: 33px;
+                font-size: 16px;
+                position: relative;
+                h4{
+                    color: #888888;
+                    font-weight: 400;
+                    line-height: 24px;
+                }
+            }
+
+            .third_list_box{
+                width: 270px;
+                height: 50px;
+                border-radius: 10px;
+                
+
+               
+            }
+            .arrow{
+                position: absolute;
+                bottom: 5px;
+                left: 230px;
+                background-color: #F16214;
+                width: 40px;
+                height: 40px;
+                border-radius: 10px;
+                color:#FFFFFF;
+                text-align: center;
+                padding-top: 6px;
+                cursor: pointer;
+                
+            }
+            ::placeholder{
+                padding: 12px 19px;
+
+            }
+
+        }
+    }
+
+    
+}

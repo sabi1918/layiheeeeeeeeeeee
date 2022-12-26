@@ -1,0 +1,220 @@
+.navbar{
+    padding: 44px 374px;
+    padding-bottom: 141px;
+    display: flex;
+    justify-content: space-between;
+    gap: 162px;
+    align-items: center;
+    z-index: 1;
+    // border: 2px solid green;
+    position: relative;
+
+    .left_side img{
+        width: 162px;
+        height: 45px;
+        // border: 1px solid rebeccapurple;
+    }
+
+    .right_side{
+        display: flex;
+        justify-content: space-between;
+        gap: 30px;
+        align-items: center;
+        .middle_side{
+            // border: 2px solid black;
+            font-size: 16px;
+            font-weight: 400;
+            .unordered_list {
+                list-style: none;
+                display: flex;
+                justify-content: space-between;
+                width: 413px;
+            }
+            .unordered_list li{
+                
+                color: #000000;
+            }
+        }
+        .register_side{
+            .register_button{
+                border-radius: 120px;
+                border-style: none;
+                width: 80px;
+                height: 30px;
+                background-color: #F16214 ;
+                color: #FFFFFF;
+            }
+    
+        }
+
+    }
+}
+
+@media screen and (max-width:1246px) {
+    .navbar{
+        // border: 2px solid red;
+        gap: 81px;
+    }
+}
+
+@media screen and (max-width:1164px) {
+    .navbar{
+        // border: 2px solid red;
+        display: block;
+
+        .left_side img{
+            width: 162px;
+            height: 45px;
+            margin-left: 180px;
+            // border: 1px solid rebeccapurple;
+        }
+    }
+}
+
+@media screen and (max-width:921px) {
+    .navbar{
+        // border: 2px solid red;
+        .left_side{
+            // border: 2px solid red;
+             img{
+                width: 162px;
+                height: 45px;
+                margin-left: -45px;
+                // border: 1px solid rebeccapurple;
+            }
+        }
+        
+        .right_side{
+            .middle_side{
+                // border: 2px solid black;
+                font-size: 20px;
+                font-weight: 400;
+                margin-left: -200px;
+                .unordered_list {
+                    list-style: none;
+                    display: flex;
+                    width: 500px;
+                    gap: 30px;
+                }
+                .unordered_list li{
+                    color: #000000;
+                }
+            }
+            .register_side{
+                .register_button{
+                    border-radius: 120px;
+                    border-style: none;
+                    width: 80px;
+                    height: 30px;
+                    background-color: #F16214 ;
+                    color: #FFFFFF;
+                    cursor: pointer;
+                }
+        
+            }
+    
+        }
+    }
+}
+
+@media screen and (max-width:808px) {
+    .navbar{
+        //  border: 2px solid red;
+         height: 200px;
+        .left_side{
+            width: 490px;
+             img{
+                width: 490px;
+                height: 135px;
+                // border: 1px solid rebeccapurple;
+                margin-left: -200px;
+
+            }
+        }
+        
+        .right_side{
+            .middle_side{
+                // border: 2px solid black;
+                font-size: 20px;
+                font-weight: 400;
+                margin-left: -200px;
+                .unordered_list {
+                    list-style: none;
+                    display: flex;
+                    display: none;
+                    width: 500px;
+                    gap: 30px;
+                }
+                .unordered_list li{
+                    color: #000000;
+                }
+            }
+            .register_side{
+                .register_button{
+                    display: none;
+                    border-radius: 120px;
+                    border-style: none;
+                    width: 80px;
+                    height: 30px;
+                    background-color: #F16214 ;
+                    color: #FFFFFF;
+                    cursor: pointer;
+
+                }
+        
+            }
+    
+        }
+    }
+}
+
+@media screen and (max-width:688px) {
+    .navbar{
+        //  border: 2px solid red;
+         height: 200px;
+        .left_side{
+            // border: 2px solid red;
+            width: 300px;
+             img{
+                width: 245px;
+                height: 67px;
+                margin-left: -180px;
+                // border: 1px solid rebeccapurple;
+            }
+        }
+        
+        .right_side{
+            .middle_side{
+                // border: 2px solid black;
+                font-size: 20px;
+                font-weight: 400;
+                margin-left: -200px;
+                .unordered_list {
+                    list-style: none;
+                    display: flex;
+                    display: none;
+                    width: 500px;
+                    gap: 30px;
+                }
+                .unordered_list li{
+                    color: #000000;
+                }
+            }
+            .register_side{
+                .register_button{
+                    display: none;
+                    border-radius: 120px;
+                    border-style: none;
+                    width: 80px;
+                    height: 30px;
+                    background-color: #F16214 ;
+                    color: #FFFFFF;
+                    cursor: pointer;
+
+                }
+        
+            }
+    
+        }
+    }
+}

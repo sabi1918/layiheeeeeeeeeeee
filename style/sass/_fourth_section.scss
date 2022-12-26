@@ -1,0 +1,571 @@
+ .fourth_section{
+    .goods {
+
+        // border: 1px solid black;
+        margin-top: 97px;
+        text-align: center;
+
+        .product {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            color: #F16214;
+            margin-bottom: 6px;
+        }
+
+        .popular_items {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 49px;
+            color: #000000;
+        }
+    }
+
+    .items {
+        padding:0 10%;
+        margin-top: 59px;
+        
+        // height: 868px;
+        display: flex;
+        // justify-content: space-between;
+        gap: 30px;
+        
+        flex-wrap: wrap;
+        align-content: space-between;
+        
+        .gyro_sandwich {
+            width: 370px;
+            height: 419px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+            border-radius: 50px 0px;
+
+
+            .about {
+                // width: 333px;
+                display: flex;
+                justify-content: space-between;
+                padding: 0 19px;
+
+                .left_side {
+                    width: 151px;
+                    margin-top: 14px;
+
+                    .name_item {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #000000;
+
+                    }
+
+                    .add_card {
+                        width: 100px;
+                        height: 40px;
+                        background: #F16214;
+                        border-radius: 50px;
+                        font-weight: 700;
+                        font-size: 11px;
+                        line-height: 13px;
+                        border: none;
+                        color: #FFFFFF;
+                        margin-top: 19px;
+
+                    }
+
+                }
+
+                .right_side {
+                    width: 48px;
+                    margin-top: 31px;
+                     
+                    .image-p{
+                        display: flex;
+                        text-align: end;
+                        width: 36px;
+                        height: 14px;
+                        margin-bottom: 16px;
+                        padding-left: 10px;
+
+                        .stars{
+                            width: 14px;
+                            height: 14px;
+                        }
+                        .avarage_points {
+                            text-align: end;
+                            width: 36px;
+                            height: 14px;
+                            font-weight: 700;
+                            font-size: 11px;
+                            line-height: 13px;
+                            color: #000000;
+                            margin-bottom: 16px;
+                            padding-left: 5px;
+                        }
+                    }
+                    
+
+                    .price {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+
+                        color: #000000;
+                    }
+                }
+            }
+        }
+
+        .enchilada {
+            width: 370px;
+            height: 419px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+            border-radius: 50px 0px;
+
+
+            .about {
+                // width: 333px;
+                display: flex;
+                justify-content: space-between;
+                padding: 0 19px;
+
+                .left_side {
+                    width: 151px;
+                    margin-top: 14px;
+
+                    .name_item {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #000000;
+
+                    }
+
+                    .add_card {
+                        width: 100px;
+                        height: 40px;
+                        background: #F16214;
+                        border-radius: 50px;
+                        font-weight: 700;
+                        font-size: 11px;
+                        line-height: 13px;
+                        border: none;
+                        color: #FFFFFF;
+                        margin-top: 19px;
+
+                    }
+
+                }
+
+                .right_side {
+                    width: 48px;
+                    margin-top: 31px;
+                     
+                    .image-p{
+                        display: flex;
+                        text-align: end;
+                        width: 36px;
+                        height: 14px;
+                        margin-bottom: 16px;
+                        padding-left: 10px;
+
+                        .stars{
+                            width: 14px;
+                            height: 14px;
+                        }
+                        .avarage_points {
+                            text-align: end;
+                            width: 36px;
+                            height: 14px;
+                            font-weight: 700;
+                            font-size: 11px;
+                            line-height: 13px;
+                            color: #000000;
+                            margin-bottom: 16px;
+                            padding-left: 5px;
+                        }
+                    }
+                    
+
+                    .price {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+
+                        color: #000000;
+                    }
+                }
+            }
+        }
+
+        .green_beans {
+            width: 370px;
+            height: 419px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+            border-radius: 50px 0px;
+
+
+            .about {
+                // width: 333px;
+                display: flex;
+                justify-content: space-between;
+                padding: 0 19px;
+
+                .left_side {
+                    width: 151px;
+                    margin-top: 14px;
+
+                    .name_item {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #000000;
+
+                    }
+
+                    .add_card {
+                        width: 100px;
+                        height: 40px;
+                        background: #F16214;
+                        border-radius: 50px;
+                        font-weight: 700;
+                        font-size: 11px;
+                        line-height: 13px;
+                        border: none;
+                        color: #FFFFFF;
+                        margin-top: 19px;
+
+                    }
+
+                }
+
+                .right_side {
+                    width: 48px;
+                    margin-top: 31px;
+                     
+                    .image-p{
+                        display: flex;
+                        text-align: end;
+                        width: 36px;
+                        height: 14px;
+                        margin-bottom: 16px;
+                        padding-left: 10px;
+
+                        .stars{
+                            width: 14px;
+                            height: 14px;
+                        }
+                        .avarage_points {
+                            text-align: end;
+                            width: 36px;
+                            height: 14px;
+                            font-weight: 700;
+                            font-size: 11px;
+                            line-height: 13px;
+                            color: #000000;
+                            margin-bottom: 16px;
+                            padding-left: 5px;
+                        }
+                    }
+                    
+
+                    .price {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+
+                        color: #000000;
+                    }
+                }
+            }
+        }
+
+        .pizza {
+            width: 370px;
+            height: 419px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+            border-radius: 50px 0px;
+
+
+            .about {
+                // width: 333px;
+                display: flex;
+                justify-content: space-between;
+                padding: 0 19px;
+
+                .left_side {
+                    width: 151px;
+                    margin-top: 14px;
+
+                    .name_item {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #000000;
+
+                    }
+
+                    .add_card {
+                        width: 100px;
+                        height: 40px;
+                        background: #F16214;
+                        border-radius: 50px;
+                        font-weight: 700;
+                        font-size: 11px;
+                        line-height: 13px;
+                        border: none;
+                        color: #FFFFFF;
+                        margin-top: 19px;
+
+                    }
+
+                }
+
+                .right_side {
+                    width: 48px;
+                    margin-top: 31px;
+                     
+                    .image-p{
+                        display: flex;
+                        text-align: end;
+                        width: 36px;
+                        height: 14px;
+                        margin-bottom: 16px;
+                        padding-left: 10px;
+
+                        .stars{
+                            width: 14px;
+                            height: 14px;
+                        }
+                        .avarage_points {
+                            text-align: end;
+                            width: 36px;
+                            height: 14px;
+                            font-weight: 700;
+                            font-size: 11px;
+                            line-height: 13px;
+                            color: #000000;
+                            margin-bottom: 16px;
+                            padding-left: 5px;
+                        }
+                    }
+                    
+
+                    .price {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+
+                        color: #000000;
+                    }
+                }
+            }
+        }
+
+        .chicken_pot_pie {
+            width: 370px;
+            height: 419px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+            border-radius: 50px 0px;
+
+
+            .about {
+                // width: 333px;
+                display: flex;
+                justify-content: space-between;
+                padding: 0 19px;
+
+                .left_side {
+                    width: 151px;
+                    margin-top: 14px;
+
+                    .name_item {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #000000;
+
+                    }
+
+                    .add_card {
+                        width: 100px;
+                        height: 40px;
+                        background: #F16214;
+                        border-radius: 50px;
+                        font-weight: 700;
+                        font-size: 11px;
+                        line-height: 13px;
+                        border: none;
+                        color: #FFFFFF;
+                        margin-top: 19px;
+
+                    }
+
+                }
+
+                .right_side {
+                    width: 48px;
+                    margin-top: 31px;
+                     
+                    .image-p{
+                        display: flex;
+                        text-align: end;
+                        width: 36px;
+                        height: 14px;
+                        margin-bottom: 16px;
+                        padding-left: 10px;
+
+                        .stars{
+                            width: 14px;
+                            height: 14px;
+                        }
+                        .avarage_points {
+                            text-align: end;
+                            width: 36px;
+                            height: 14px;
+                            font-weight: 700;
+                            font-size: 11px;
+                            line-height: 13px;
+                            color: #000000;
+                            margin-bottom: 16px;
+                            padding-left: 5px;
+                        }
+                    }
+                    
+
+                    .price {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+
+                        color: #000000;
+                    }
+                }
+            }
+        }
+        .green_salad {
+            width: 370px;
+            height: 419px;
+            background: #FFFFFF;
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.07);
+            border-radius: 50px 0px;
+
+
+            .about {
+                // width: 333px;
+                display: flex;
+                justify-content: space-between;
+                padding: 0 19px;
+
+                .left_side {
+                    width: 151px;
+                    margin-top: 14px;
+
+                    .name_item {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+                        color: #000000;
+
+                    }
+
+                    .add_card {
+                        width: 100px;
+                        height: 40px;
+                        background: #F16214;
+                        border-radius: 50px;
+                        font-weight: 700;
+                        font-size: 11px;
+                        line-height: 13px;
+                        border: none;
+                        color: #FFFFFF;
+                        margin-top: 19px;
+
+                    }
+
+                }
+
+                .right_side {
+                    width: 48px;
+                    margin-top: 31px;
+                     
+                    .image-p{
+                        display: flex;
+                        text-align: end;
+                        width: 36px;
+                        height: 14px;
+                        margin-bottom: 16px;
+                        padding-left: 10px;
+
+                        .stars{
+                            width: 14px;
+                            height: 14px;
+                        }
+                        .avarage_points {
+                            text-align: end;
+                            width: 36px;
+                            height: 14px;
+                            font-weight: 700;
+                            font-size: 11px;
+                            line-height: 13px;
+                            color: #000000;
+                            margin-bottom: 16px;
+                            padding-left: 5px;
+                        }
+                    }
+                    
+
+                    .price {
+                        font-weight: 700;
+                        font-size: 20px;
+                        line-height: 24px;
+
+                        color: #000000;
+                    }
+                }
+            }
+        }
+    }
+
+    .see_more{
+        margin-top: 60px;
+        background: #F16214;
+        border-radius: 54px;
+        width: 200px;
+        height: 50px;
+        position: relative;
+        margin-left: 43%;
+        margin-bottom: 100px;
+
+
+        .btn_see_more{
+            position: absolute;
+            width: 131px;
+            height: 24px;
+            left: 12px;
+            top: 13px;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 150%;
+            color: #FFFFFF;
+        }
+
+        .arrow{
+            position: absolute;
+            width: 40px;
+            height: 40px;
+            left: 142px;
+            top: -8px;
+            border-radius: 50%;
+            background-color: white;
+            color:#F16214;
+            text-align: center;
+            
+        }
+    }
+}

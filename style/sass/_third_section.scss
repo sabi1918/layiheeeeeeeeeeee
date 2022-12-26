@@ -1,0 +1,624 @@
+.third_section{
+    // border: 2px solid royalblue;
+    margin-top: 200px;
+    margin-left: 175px;
+    margin-right: 175px;
+    height: 514px;
+    .heading{
+        // border: 2px solid red;
+        width: 571px;
+        width: max-content;
+        padding-left: 300px;   
+
+        .services{
+            text-align: center;
+            font-size: 14px;
+            font-weight: 700;
+            color: rgba(241, 98, 20, 1);
+        }
+
+        .favourite{
+            font-size: 40px;
+            font-weight: 700;
+            color: rgba(0, 0, 0, 1);
+        }
+    }
+
+    .info_about_restaurant{
+        padding-top: 59px;
+        .unordered_list{
+            display: flex;
+            list-style: none;
+            justify-content: space-between;
+            gap: 30px;
+            .qualityfull_food{
+                // border: 1px solid rgba(238, 238, 238, 1);
+                border: 1px solid rgba(238, 238, 238, 1);
+                border-top-left-radius:60px ;
+                border-bottom-right-radius:60px ;
+                height: 395px;
+                width: 370px;
+                .first_block{
+                    margin-left: 90px;
+                    margin-top: 90px;
+                    text-align: center;
+                    .image{
+                        width: 80px;
+                        height: 80px;
+                    }
+                    p{
+                        font-size: 700;
+                        font-size: 26px;
+                        color: rgba(0, 0, 0, 1);
+                    }
+
+                    h3{
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: rgba(136, 136, 136, 1);
+                    }
+                }
+            }
+
+            .healthy_food{
+                border: 1px solid rgba(238, 238, 238, 1);
+                border-top-left-radius:60px ;
+                border-bottom-right-radius:60px ;
+                height: 395px;
+                width: 370px;
+                .second_block{
+                    margin-left: 90px;
+                    margin-top: 90px;
+                    text-align: center;
+                    .image{
+                        width: 80px;
+                        height: 80px;
+                    }
+
+                    p{
+                        font-size: 700;
+                        font-size: 26px;
+                        color: rgba(0, 0, 0, 1);
+                    }
+
+                    h3{
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: rgba(136, 136, 136, 1);
+                    }
+                }
+            }
+
+            .fast_delivery{
+                border: 1px solid rgba(238, 238, 238, 1);
+                border-top-left-radius:60px ;
+                border-bottom-right-radius:60px ;
+                height: 395px;
+                width: 370px;
+                .third_block{
+                    margin-left: 90px;
+                    margin-top: 90px;
+                    text-align: center;
+                    .image{
+                        width: 80px;
+                        height: 80px;
+                    }
+
+                    p{
+                        font-size: 700;
+                        font-size: 26px;
+                        color: rgba(0, 0, 0, 1);
+                    }
+
+                    h3{
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: rgba(136, 136, 136, 1);
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1380px) {
+    .third_section{
+        .heading{
+            width: max-content;
+            width: 100%;
+            .services{
+                font-size: 12px;
+                font-weight: 700;
+                color: rgba(241, 98, 20, 1);
+            }
+    
+            .favourite{
+                font-size: 30px;
+                font-weight: 700;
+                color: rgba(0, 0, 0, 1);
+                // border: 2px solid rebeccapurple;
+            }
+        }
+    
+        .info_about_restaurant{
+            padding-top: 59px;
+            .unordered_list{
+                display: flex;
+                list-style: none;
+                justify-content: space-between;
+                gap: 30px;
+                .qualityfull_food{
+                    border: 1px solid rgba(238, 238, 238, 1);
+                    border-top-left-radius:60px ;
+                    border-bottom-right-radius:60px ;
+                    height: 395px;
+                    width: 370px;
+                    .first_block{
+                        margin-left: 30px;
+                        margin-top: 90px;
+                        text-align: center;
+                        .image{
+                            width: 80px;
+                            height: 80px;
+                        }
+                        p{
+                            font-size: 700;
+                            font-size: 20px;
+                            color: rgba(0, 0, 0, 1);
+                        }
+    
+                        h3{
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: rgba(136, 136, 136, 1);
+                        }
+                    }
+                }
+    
+                .healthy_food{
+                    border: 1px solid rgba(238, 238, 238, 1);
+                    border-top-left-radius:60px ;
+                    border-bottom-right-radius:60px ;
+                    height: 395px;
+                    width: 370px;
+                    .second_block{
+                        margin-left: 30px;
+                        margin-top: 90px;
+                        text-align: center;
+                        .image{
+                            width: 80px;
+                            height: 80px;
+                        }
+    
+                        p{
+                            font-size: 700;
+                            font-size: 20px;
+                            color: rgba(0, 0, 0, 1);
+                        }
+    
+                        h3{
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: rgba(136, 136, 136, 1);
+                        }
+                    }
+                }
+    
+                .fast_delivery{
+                    border: 1px solid rgba(238, 238, 238, 1);
+                    border-top-left-radius:60px ;
+                    border-bottom-right-radius:60px ;
+                    height: 395px;
+                    width: 370px;
+                    .third_block{
+                        margin-left: 30px;
+                        margin-top: 90px;
+                        text-align: center;
+                        .image{
+                            width: 80px;
+                            height: 80px;
+                        }
+    
+                        p{
+                            font-size: 700;
+                            font-size: 20px;
+                            color: rgba(0, 0, 0, 1);
+                        }
+    
+                        h3{
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: rgba(136, 136, 136, 1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1080px) {
+    .third_section{
+        .heading{
+            // border: 2px solid red;
+            .services{
+                padding-right: 50%;
+                font-size: 12px;
+                font-weight: 700;
+                color: rgba(241, 98, 20, 1);
+            }
+    
+            .favourite{
+                // border: 2px solid red;
+                margin-right: 600px;
+                font-size: 20px;
+                font-weight: 700;
+                color: rgba(0, 0, 0, 1);
+                padding-right: 50%;
+                width: max-content;
+                
+            }
+        }
+    
+        .info_about_restaurant{
+            padding-top: 35px;
+            .unordered_list{
+                display: flex;
+                list-style: none;
+                justify-content: space-between;
+                gap: 30px;
+                .qualityfull_food{
+                    // border: 1px solid rgba(238, 238, 238, 1);
+                    border: 1px solid rgba(238, 238, 238, 1);
+                    border-top-left-radius:60px ;
+                    border-bottom-right-radius:60px ;
+                    height: 300px;
+                    width: 370px;
+                    .first_block{
+                        margin-left: 45px;
+                        margin-top: 45px;
+                        text-align: center;
+                        .image{
+                            width: 80px;
+                            height: 80px;
+                        }
+                        p{
+                            font-size: 700;
+                            font-size: 20px;
+                            color: rgba(0, 0, 0, 1);
+                        }
+    
+                        h3{
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: rgba(136, 136, 136, 1);
+                        }
+                    }
+                }
+    
+                .healthy_food{
+                    border: 1px solid rgba(238, 238, 238, 1);
+                    border-top-left-radius:60px ;
+                    border-bottom-right-radius:60px ;
+                    height: 300px;
+                    width: 370px;
+                    .second_block{
+                        margin-left: 45px;
+                        margin-top: 45px;
+                        text-align: center;
+                        .image{
+                            width: 80px;
+                            height: 80px;
+                        }
+    
+                        p{
+                            font-size: 700;
+                            font-size: 20px;
+                            color: rgba(0, 0, 0, 1);
+                        }
+    
+                        h3{
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: rgba(136, 136, 136, 1);
+                        }
+                    }
+                }
+    
+                .fast_delivery{
+                    border: 1px solid rgba(238, 238, 238, 1);
+                    border-top-left-radius:60px ;
+                    border-bottom-right-radius:60px ;
+                    height: 300px;
+                    width: 370px;
+                    .third_block{
+                        margin-left: 45px;
+                        margin-top: 45px;
+                        text-align: center;
+                        .image{
+                            width: 80px;
+                            height: 80px;
+                        }
+    
+                        p{
+                            font-size: 700;
+                            font-size: 20px;
+                            color: rgba(0, 0, 0, 1);
+                        }
+    
+                        h3{
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: rgba(136, 136, 136, 1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width:945px) {
+    .third_section{
+        margin-bottom: 500px;
+        .heading{
+            position: relative;
+            // border: 2px solid rgb(124, 72, 72);
+            .services{
+                font-size: 12px;
+                font-weight: 700;
+                color: rgba(241, 98, 20, 1);
+                position: absolute;
+                bottom: 70px;
+                right: 120px;
+            }
+    
+            .favourite{
+                position: absolute;
+                // border: 2px solid rgb(125, 77, 192);
+                right: -600px;
+                bottom: 30px;
+                margin-right: 600px;
+                font-size: 20px;
+                font-weight: 700;
+                color: rgba(0, 0, 0, 1);
+                width: max-content;
+                
+            }
+        }
+    
+        .info_about_restaurant{
+            padding-top: 20px;
+            .unordered_list{
+                flex-wrap: wrap;
+                list-style: none;
+                justify-content: space-between;
+                gap: 30px;
+                position: relative;
+                .qualityfull_food{
+                    border: 1px solid rgba(238, 238, 238, 1);
+                    border-top-left-radius:60px ;
+                    border-bottom-right-radius:60px ;
+                    height: 200px;
+                    width: 300px;
+                    padding-right: 30px;
+                    .first_block{
+                        margin-left: 45px;
+                        margin-top: 45px;
+                        text-align: center;
+                        .image{
+                            width: 80px;
+                            height: 80px;
+                        }
+                        p{
+                            font-size: 700;
+                            font-size: 20px;
+                            color: rgba(0, 0, 0, 1);
+                        }
+    
+                        h3{
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: rgba(136, 136, 136, 1);
+                        }
+                    }
+                }
+    
+                .healthy_food{
+                    border: 1px solid rgba(238, 238, 238, 1);
+                    border-top-left-radius:60px ;
+                    border-bottom-right-radius:60px ;
+                    height: 200px;
+                    width: 300px;
+                    padding-right: 30px;
+                    .second_block{
+                        margin-left: 45px;
+                        margin-top: 45px;
+                        text-align: center;
+                        .image{
+                            width: 80px;
+                            height: 80px;
+                        }
+    
+                        p{
+                            font-size: 700;
+                            font-size: 20px;
+                            color: rgba(0, 0, 0, 1);
+                        }
+    
+                        h3{
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: rgba(136, 136, 136, 1);
+                        }
+                    }
+                }
+    
+                .fast_delivery{
+                    border: 1px solid rgba(238, 238, 238, 1);
+                    border-top-left-radius:60px ;
+                    border-bottom-right-radius:60px ;
+                    height: 200px;
+                    width: 300px;
+                    padding-right: 30px;
+                    .third_block{
+                        margin-left: 45px;
+                        margin-top: 45px;
+                        text-align: center;
+                        .image{
+                            width: 80px;
+                            height: 80px;
+                        }
+    
+                        p{
+                            font-size: 700;
+                            font-size: 20px;
+                            color: rgba(0, 0, 0, 1);
+                        }
+    
+                        h3{
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: rgba(136, 136, 136, 1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:640px) {
+    .third_section{
+        margin-bottom: 500px;
+        .heading{
+            position: relative;
+            // border: 2px solid rgb(124, 72, 72);
+            .services{
+                font-size: 12px;
+                font-weight: 700;
+                color: rgba(241, 98, 20, 1);
+                position: absolute;
+                bottom: 70px;
+                right: 120px;
+            }
+    
+            .favourite{
+                position: absolute;
+                // border: 2px solid rgb(125, 77, 192);
+                right: -600px;
+                bottom: 30px;
+                margin-right: 600px;
+                font-size: 20px;
+                font-weight: 700;
+                color: rgba(0, 0, 0, 1);
+                width: max-content;
+                
+            }
+        }
+    
+        .info_about_restaurant{
+            padding-top: 20px;
+            .unordered_list{
+                flex-wrap: wrap;
+                list-style: none;
+                justify-content: space-between;
+                gap: 30px;
+                position: relative;
+                .qualityfull_food{
+                    border: 1px solid rgba(238, 238, 238, 1);
+                    border-top-left-radius:60px ;
+                    border-bottom-right-radius:60px ;
+                    height: 200px;
+                    width: 300px;
+                    padding-right: 30px;
+                    padding-bottom: 300px;
+                    .first_block{
+                        margin-left: 45px;
+                        margin-top: 45px;
+                        text-align: center;
+                        .image{
+                            width: 80px;
+                            height: 80px;
+                        }
+                        p{
+                            font-size: 700;
+                            font-size: 20px;
+                            color: rgba(0, 0, 0, 1);
+                        }
+    
+                        h3{
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: rgba(136, 136, 136, 1);
+                        }
+                    }
+                }
+    
+                .healthy_food{
+                    border: 1px solid rgba(238, 238, 238, 1);
+                    border-top-left-radius:60px ;
+                    border-bottom-right-radius:60px ;
+                    height: 200px;
+                    width: 300px;
+                    padding-right: 30px;
+                    padding-bottom: 300px;
+                    .second_block{
+                        margin-left: 45px;
+                        margin-top: 45px;
+                        text-align: center;
+                        .image{
+                            width: 80px;
+                            height: 80px;
+                        }
+    
+                        p{
+                            font-size: 700;
+                            font-size: 20px;
+                            color: rgba(0, 0, 0, 1);
+                        }
+    
+                        h3{
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: rgba(136, 136, 136, 1);
+                        }
+                    }
+                }
+    
+                .fast_delivery{
+                    border: 1px solid rgba(238, 238, 238, 1);
+                    border-top-left-radius:60px ;
+                    border-bottom-right-radius:60px ;
+                    height: 200px;
+                    width: 300px;
+                    padding-right: 30px;
+                    padding-bottom: 300px;
+                    .third_block{
+                        margin-left: 45px;
+                        margin-top: 45px;
+                        text-align: center;
+                        .image{
+                            width: 80px;
+                            height: 80px;
+                        }
+    
+                        p{
+                            font-size: 700;
+                            font-size: 20px;
+                            color: rgba(0, 0, 0, 1);
+                        }
+    
+                        h3{
+                            font-size: 12px;
+                            font-weight: 400;
+                            color: rgba(136, 136, 136, 1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

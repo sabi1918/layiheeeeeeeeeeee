@@ -1,0 +1,153 @@
+.fiveth_section{
+    // border: 2px solid red;
+
+    margin: 0 auto;
+    .application_menu{
+        background-image: url(/icons/black_background.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-bottom: 100px;
+        position: relative;
+        height: 500px;
+        margin-top: 300px;
+        .view{
+            background-image: url(/icons/phones.png);
+            background-position: center;
+            background-color: transparent;
+            width: 628px;
+            height: 650px;
+            // border: 1px solid black;
+            position: absolute;
+            top: -18%;
+            left: 57%;
+            
+            // border-radius: 20%;
+        }
+
+        .application_box{
+            padding-left: 21%;
+            padding-top: 100px;
+            padding-right: 43%;
+            h3{
+                width: 47%;
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 49px;
+                color: #FFFFFF;
+                margin-bottom: 50px;
+            }
+            .android_phone{
+                margin-right: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1420px) {
+    .fiveth_section{
+        // border: 2px solid red;
+    
+        margin: 0 auto;
+        .application_menu{
+            background-image: url(/icons/black_background.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-bottom: 100px;
+            position: relative;
+            height: 500px;
+            margin-top: 300px;
+            margin-right: 150px;
+            background-size: 75%;
+            .view{
+                background-image: url(/icons/phones.png);
+                background-position: center;
+                background-color: transparent;
+                width: 628px;
+                height: 650px;
+                // border: 1px solid black;
+                position: absolute;
+                top: -18%;
+                left: 57%;
+                
+                // border-radius: 20%;
+            }
+    
+            .application_box{
+                padding-left: 21%;
+                padding-top: 100px;
+                padding-right: 43%;
+                h3{
+                    width: 47%;
+                    font-weight: 700;
+                    font-size: 40px;
+                    line-height: 49px;
+                    color: #FFFFFF;
+                    margin-bottom: 50px;
+                }
+                .android_phone{
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1220px) {
+    .fiveth_section{
+        // border: 2px solid red;
+    
+        margin: 0 auto;
+        .application_menu{
+            background-image: url(/icons/black_background.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            margin-bottom: 100px;
+            position: relative;
+            height: 500px;
+            margin-top: 50px;
+            margin-right: 150px;
+            background-size: 75%;
+            .view{
+                background-image: url(/icons/phones.png);
+                background-position: center;
+                background-color: transparent;
+                background-size: 75%;
+                background-repeat: no-repeat;
+                width: 628px;
+                height: 650px;
+                // border: 1px solid black;
+                position: absolute;
+                top: -18%;
+                left: 57%;
+                
+                // border-radius: 20%;
+            }
+    
+            .application_box{
+                padding-left: 21%;
+                padding-top: 230px;
+                padding-right: 43%;
+                h3{
+                    width: 35%;
+                    height: 35%;
+                    font-weight: 700;
+                    font-size: 20px;
+                    line-height: 20px;
+                    color: #FFFFFF;
+                    margin-bottom: 50px;
+                }
+                .android_phone{
+                    margin-right: 15px;
+                    height: 30%;
+                    width: 30%;
+                }
+
+                .apple_phone{
+                    margin-right: 15px;
+                    height: 30%;
+                    width: 30%;
+                }
+            }
+        }
+    }
+}

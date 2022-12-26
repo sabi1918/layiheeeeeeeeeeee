@@ -1,0 +1,122 @@
+.sixth_section{
+    margin-bottom: 180px;
+    .sixth_section_main_div{
+        height: 644px;
+        background-image: url(/icons/corner.png);
+        background-repeat: no-repeat;
+        margin-top: 150px;
+        .test_block{
+            padding-top: 97px;
+            text-align: center;
+            .test{
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 17px;
+                color: #F16214;
+                margin-bottom: 6px;
+            }
+
+            .clients_words{
+                font-weight: 700;
+                font-size: 40px;
+                line-height: 49px;
+                color: #000000;
+            }
+        }
+
+        .chef_blog {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            .right_side{
+                width: 569px;
+                height: 483px;
+                background-image: url(/images/chef_special.png);
+                background-size: contain;
+            }
+
+            .left_side {
+                margin-top: 118px;
+                display: flex;
+                flex-direction: column;
+                text-align: center;
+                width: 29%;
+
+                .chef_image {
+                    display: flex;
+                    // text-align: center;
+                    align-items: center;
+                    gap: 15px;
+
+                    margin: 0 auto;
+
+                }
+
+                .chef_box {
+                    .chef_name {
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 19px;
+                        color: #000000;
+                    }
+
+                    .about_chef {
+                        font-weight: 400;
+                        font-size: 13px;
+                        line-height: 16px;
+                        color: #888888;
+                    }
+                }
+
+                .ceo_interview {
+
+                    
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 150%;
+                    text-align: center;
+                    color: #888888;
+                    margin-top: 41px;
+
+                }
+
+                .arrows {
+
+                    height: 50px;
+                    display: flex;
+                    gap: 30px;
+                    margin: 55px auto;
+                    .to_left {
+                        border: 1.5px solid #EEEEEE;
+                        border-radius: 10px;
+                        background: #FFFFFF;
+                        display: flex;
+                        align-items: center;
+                        .right {
+                            padding-top: 5px;
+                            padding-left: 13px;
+                            padding-right: 13px;
+                        }
+                    }
+                    .to_right {
+                        width: 50px;
+                        height: 50px;
+                        border: 1.5px solid #EEEEEE;
+                        border-radius: 10px;
+                        background: #F16214;
+                        display: flex;
+                        align-items: center;
+                        .left {
+                            padding-top: 5px;
+                            padding-left: 13px;
+                            padding-right: 13px;
+                        }
+                    }
+                }
+            }
+
+
+        }
+    }
+
+}

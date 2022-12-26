@@ -1,0 +1,80 @@
+.seventh_section{
+    margin: 0 auto;
+    margin-top: 100px;
+    padding: 0 370px;
+    background-image: url(/icons/black_background.png);
+    background-repeat: no-repeat;
+    background-position-x:50% ;
+    background-position-y:10% ;
+    border: 3px solid rgb(14, 4, 4);
+    border-top-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+    width: 1170px;
+    height: 300px;
+    .main_container_section_seven{
+        display: flex;
+        gap: 106px;
+        position: relative;
+        .image_hamburger{
+            position: absolute;
+            left: -350px;
+            top: -90px;
+            // border: 2px solid red;
+            img{
+                width: 460px;
+                height: 460px;
+            }
+        }
+
+        .info_about_subscribe{
+            position: absolute;
+            left: 250px;
+            top: 50px;
+            // border: 2px solid red;
+            width: 504px;
+            height: 155px;
+            .subscribe_for_news{
+                align-content: center;
+                font-size: 40px;
+                color: #FFFFFF;
+            }
+
+            .info_subscribes{
+                padding-bottom: 29px ;
+                align-content: center;
+                padding-top: 15px;
+                font-size: 16px;
+                color: #888888;
+            }
+
+            .mail_block{
+
+                ::placeholder{
+                    color: #CCCCCC;
+                    padding-left: 15px;
+                }
+                .mail_tube{
+                    width: 500px;
+                height: 60px;
+                border-radius: 13px;
+                position: relative;
+                color: black;
+                }
+
+                .subscribe_button{
+                    border-radius: 13px;
+                width: 120px;
+                height: 50px;
+                background-color: #F16214;
+                position: absolute;
+                right: 10px;
+                    bottom: -30px;
+                cursor: pointer;
+                font-size: 16px;
+                font-weight: 700;
+                color:#FFFFFF
+                }
+            }
+        }
+    }
+}

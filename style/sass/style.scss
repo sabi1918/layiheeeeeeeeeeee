@@ -1,0 +1,30 @@
+@use './navbar';
+@use './first_section';
+@use './second_section';
+@use './third_section';
+@use './fourth_section';
+@use './fiveth_section';
+@use './sixth_section';
+@use './seventh_section';
+@use './footer_section';
+@use './copy_rights';
+
+@font-face {
+    font-family: 'Product Sans';
+    src: url('/fonts/Product\ Sans\ Regular.ttf');
+    font-weight: 400;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Product Sans';
+}
+
+.main_container{
+    // border: 1px solid red;
+    background-color: #FFFFFF;
+    color: #272042;
+    // padding: 44px 374px;
+}
